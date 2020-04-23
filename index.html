@@ -19,7 +19,7 @@
 body {
   background-color: lightgrey;
   color: #53ff1a;
-  font-family: terminal;
+  font-family: 'terminal';
 }
 @font-face {
   font-family: 'terminal';
@@ -38,7 +38,8 @@ body {
           quotes[3] = "Never underestimate the determination of a kid who is time-rich and cash-poor.";
           quotes[4] = "Never spell uplodaing right.";
           quotes[5] = "'IM STILL DUMB JUST NOT FOR THAT REASON' -KaliBoi ";
-          var rand = Math.floor(Math.random()*quotes.length);
+          var rand = Math.floor((Math.random() * 5) + 0);
+
           document.write(quotes[rand]);
         }
         writeRandomQuote();
