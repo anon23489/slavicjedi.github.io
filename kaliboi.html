@@ -62,6 +62,20 @@
     <div align="middle">
       <img src="creepysmile.jpg">
     </div>
+    
+    <form id="name" method="post" name="myform">
+      <label>My Name:</label>
+      <input type="text" name="username" id="username"/>  
+      <input type="button" value="Login" id="submit" onclick="validate()"/>
+    </form>
+    <script>
+      function validate(){
+        var name = document.getElementById("username").value;
+        if (username === "dylan"){
+          alert("i hate you and you are ugly");
+        }
+      }
+    </script>
       </body>
   
 </html>
