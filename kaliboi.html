@@ -63,7 +63,7 @@
       <img src="creepysmile.jpg">
     </div>
     
-    <form id="name" method="post" name="myform">
+    <form id="form_id" method="post" name="myform">
       <label>My Name:</label>
       <input type="text" name="username" id="username"/>  
       <input type="button" value="Login" id="submit" onclick="validate()"/>
@@ -71,8 +71,9 @@
     <script>
       function validate(){
         var name = document.getElementById("username").value;
-        if (username === "dylan"){
+        if (username == "dylan"){
           alert("i hate you and you are ugly");
+          return false;
         }
       }
     </script>
