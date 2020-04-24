@@ -40,13 +40,26 @@ body {
     <script type="text/javascript">
         writeRandomQuote = function () {
           var quotes = new Array();
-          quotes[0] = "'The quieter you become, the more you are able to hear…'";
+          quotes[0] = "'The quieter you become, the more you are able to hear…' -Kali";
           quotes[1] = "'Human Stupidity, that’s why Hackers always win.'";
           quotes[2] = "'Never tell everything you know…'";
           quotes[3] = "'Never underestimate the determination of a kid who is time-rich and cash-poor.'";
-          quotes[4] = "'Never spell uplodaing right.'";
+          quotes[4] = "'Never spell uplodaing right.' -The Law";
           quotes[5] = '"IM STILL DUMB JUST NOT FOR THAT REASON" -KaliBoi ';
-          var rand = Math.floor((Math.random() * 6) + 0);
+          quotes[6] = '"A hacker does for love what others would not do for money." -Laura Creighton';
+          quotes[7] = '"If you rate a programmer or coder 7.5/10 on knowledge basis, you would definitely have to rate a hacker 10." -Anonymous';
+          quotes[8] = '"Hacking is not a crime, its a profession till the time you play with it safely." -Anoymous';
+          quotes[9] = '"Flying down a tunnel of 1s and 0s is not how hacking is really done." -Walter OBrien';
+          quotes[10] = '"Hacking involves a different way of looking at problems that no ones thought of." -Walter OBrien ';
+          quotes[11] = '"The hackers dont want to destroy the network. They want to keep it running, so they can keep making money from it." -Vinton Cerf';
+          quotes[12] = '"Old hackers never die. They just go to bitnet." -Anonymous ';
+          quotes[13] = '"A hacker to me is someone creative who does wonderful things." -Tim Berners-Lee';
+          quotes[14] = '"A hacker doesnt deliberately destroy data or profit from his activities." -Kevin Mitnick ';
+          quotes[15] = '"Hackers are actually good, pleasant and extremely intelligent people who could keep computer criminals on the run." -Ankit Fadia';
+
+
+
+          var rand = Math.floor((Math.random() * 16) + 0);
 
           document.write(quotes[rand]);
         }
