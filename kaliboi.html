@@ -62,13 +62,17 @@
     <div align="middle">
       <img src="creepysmile.jpg">
     </div>
+    <details>
+      <summary>You think you know my name?</summary>
     <div align="middle">
+      <p>Click the button to submit, the enter key will not work.</p>
     <form>
     <label for="pswd">Enter your password: </label>
       <input type="password" id="pswd">
       <input type="button" value="Submit" onclick="checkPswd();" />
     </form>
   </div>
+    </details>
   
 <!--Function to check password the already set password is admin-->
   <script type="text/javascript">
@@ -76,7 +80,7 @@
       var confirmPassword = "your mom";
      var password = document.getElementById("pswd").value;
      if (password == confirmPassword) {
-          document.location="slavicjedi.html";
+          document.location="confidential.html";
      }
      else{
           alert("Keep trying.");
