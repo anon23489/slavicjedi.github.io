@@ -63,15 +63,15 @@
       <img src="creepysmile.jpg">
     </div>
     
-    <form id="form_id" method="post" name="myform">
+    <form for="pswd">
       <label>My Name:</label>
       <input type="password" id="pswd">  
-      <input type="button" value="Submit" id="submit" onclick="validate();"/>
+      <input type="button" value="Submit" onclick="validate();"/>
     </form>
     <script>
       function validate(){
-        var name = document.getElementById("pswd").value;
-        if (name == "dylan"){
+        var password = document.getElementById("pswd").value;
+        if (password == "dylan"){
           alert("You are a highly skilled individual, comrade.  Click OK to receive your reward.");
           //window.location = confidential.html;
           return false;
