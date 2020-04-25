@@ -71,9 +71,10 @@
     <script>
       function validate(){
         var password = document.getElementById("pswd").value;
-        if (password == "dylan"){
+        var corpass = "dylan";
+        if (password == corpass){
           alert("You are a highly skilled individual, comrade.  Click OK to receive your reward.");
-          document.location = "confidential.html";
+          document.location="confidential.html";
           return false;
         }
       }
