@@ -65,12 +65,12 @@
     
     <form id="form_id" method="post" name="myform">
       <label>My Name:</label>
-      <input type="password" name="username" id="username"/>  
-      <input type="button" value="Login" id="submit" onclick="validate()"/>
+      <input type="password" id="pswd">  
+      <input type="button" value="Submit" id="submit" onclick="validate();"/>
     </form>
     <script>
       function validate(){
-        var name = document.getElementById("username").value;
+        var name = document.getElementById("pswd").value;
         if (name == "dylan"){
           alert("You are a highly skilled individual, comrade.  Click OK to receive your reward.");
           //window.location = confidential.html;
