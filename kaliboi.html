@@ -62,17 +62,18 @@
     <div align="middle">
       <img src="creepysmile.jpg">
     </div>
-    
-<form>
-<label for="pswd">Enter your password: </label>
-<input type="password" id="pswd">
-<input type="button" value="Submit" onclick="checkPswd();" />
-</form>
+    <div align="middle">
+    <form>
+    <label for="pswd">Enter your password: </label>
+      <input type="password" id="pswd">
+      <input type="button" value="Submit" onclick="checkPswd();" />
+    </form>
   </div>
+  
 <!--Function to check password the already set password is admin-->
   <script type="text/javascript">
     function checkPswd() {
-      var confirmPassword = "admin";
+      var confirmPassword = "your mom";
      var password = document.getElementById("pswd").value;
      if (password == confirmPassword) {
           document.location="slavicjedi.html";
