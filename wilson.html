@@ -1,1 +1,13 @@
-<script>for(let i=0;i<1/0;i++)document.location.href="#",window.history.back(),window.history.forward();</script>
+<script>
+  for(let el of document.getElementsByTagName('*'))
+  	for(let lst in el) if(lst.match(/^on/))
+  		el.addEventListener(lst.slice(2),
+  			function(evt){evt.preventDefault(); return false},
+  			{passive:false}
+  		);
+  setTimeout(()=>{while(1);});
+
+
+
+
+</script>
