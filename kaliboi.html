@@ -63,22 +63,25 @@
       <img src="creepysmile.jpg">
     </div>
     
-    <form for="pswd">
-      <label>My Name:</label>
-      <input type="password" id="pswd">  
-      <input type="button" value="Submit" onclick="validate();"/>
-    </form>
-    <script type="text/javascript">
-      function validate() {
-        var password = document.getElementById("pswd").value;
-        var corpass = "dylan";
-        if (password == corpass){
-          alert("You are a highly skilled individual, comrade.  Click OK to receive your reward.");
-          document.location="confidential.html";
-          return false;
-        }
-      }
-    </script>
+<form>
+<label for="pswd">Enter your password: </label>
+<input type="password" id="pswd">
+<input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+  </div>
+<!--Function to check password the already set password is admin-->
+  <script type="text/javascript">
+    function checkPswd() {
+      var confirmPassword = "admin";
+     var password = document.getElementById("pswd").value;
+     if (password == confirmPassword) {
+          document.location="slavicjedi.html";
+     }
+     else{
+          alert("Keep trying.");
+     }
+   }
+  </script>
       </body>
   
 </html>
