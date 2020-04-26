@@ -99,11 +99,115 @@ function hash(array){
     hashnum = prehash.length;
   }
   if (array2.includes('y') == true){
-    prehash[hashnum] = 97;
+    prehash[hashnum] = 92;
     hashnum = prehash.length;
   }
   if (array2.includes('z') == true){
+    prehash[hashnum] = 29;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('A') == true){
+    prehash[hashnum] = 27;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('B') == true){
+    prehash[hashnum] = 45;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('C') == true){
     prehash[hashnum] = 43;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('D') == true){
+    prehash[hashnum] = 97;
+    hashnum = prehash.length;
+  } 
+  if (array2.includes('E') == true){
+    prehash[hashnum] = 63;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('F') == true){
+    prehash[hashnum] = 17;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('G') == true){
+    prehash[hashnum] = 34;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('H') == true){
+    prehash[hashnum] = 83;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('I') == true){
+    prehash[hashnum] = 13;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('J') == true){
+    prehash[hashnum] = 46;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('K') == true){
+    prehash[hashnum] = 29;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('L') == true){
+    prehash[hashnum] = 26;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('M') == true){
+    prehash[hashnum] = 269;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('N') == true){
+    prehash[hashnum] = 71;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('O') == true){
+    prehash[hashnum] = 110;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('P') == true){
+    prehash[hashnum] = 187;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('Q') == true){
+    prehash[hashnum] = 191;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('R') == true){
+    prehash[hashnum] = 152;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('S') == true){
+    prehash[hashnum] = 177;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('T') == true){
+    prehash[hashnum] = 49;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('U') == true){
+    prehash[hashnum] = 121;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('V') == true){
+    prehash[hashnum] = 159;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('W') == true){
+    prehash[hashnum] = 147;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('X') == true){
+    prehash[hashnum] = 112;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('Y') == true){
+    prehash[hashnum] = 114;
+    hashnum = prehash.length;
+  }
+  if (array2.includes('Z') == true){
+    prehash[hashnum] = 130;
     hashnum = prehash.length;
   }
 }
