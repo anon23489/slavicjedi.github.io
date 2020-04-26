@@ -252,11 +252,11 @@ function hash(array){
     prehash[hashnum] = 219;
     hashnum ++;
   }
-  var hash = multiply(prehash);
+  var hashy = multiply(prehash);
   var temp = prehash.length;
-  hash += prehash[1];
-  hash += prehash[4];
-  hash += prehash[8];
-  hash += temp;
+  hashy += prehash[1];
+  hashy += prehash[4];
+  hashy += prehash[8];
+  hashy += temp;
   return hash;
 }
