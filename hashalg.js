@@ -210,4 +210,5 @@ function hash(array){
     prehash[hashnum] = 130;
     hashnum = prehash.length;
   }
+  return prehash;
 }
