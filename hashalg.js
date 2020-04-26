@@ -106,3 +106,4 @@ function hash(array){
     prehash[hashnum] = 43;
     hashnum = prehash.length;
   }
+}
