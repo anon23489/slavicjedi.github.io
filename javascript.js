@@ -2,7 +2,7 @@
 
 /*
 function checkPswd() {
-    var confirmPassword = "yeet123";
+    var confirmPassword = "u";
     var password = document.getElementById("pswd").value;
     if (password == confirmPassword) {
          document.location="f.html";
