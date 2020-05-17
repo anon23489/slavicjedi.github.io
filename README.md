@@ -1,6 +1,6 @@
 # slavicjedi.github.io
 
 
-Don't take this seriously.
+There is someone who actually took this seriously.
 
 Devs: KaliBoi and SlavicJedi
